@@ -1,0 +1,86 @@
+#page-landing {
+    /* makes ocupy 100% of the page, because 1vh = 1/100 of the viewport, in other words , it'll be 1/100 of the screen that you're using */
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #21A65C 0%, #61F2A2 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wrapper {
+    position: relative;
+    /* Every position needs an initial point to start the coodinate calculus and only then it will positioning the element on the screen.
+    This point will be located on the superior left side of the element. With this point the browser will calculate the coordinate and will position on the viewport
+    position: relative; */
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* this 80% center refers to x and y  */
+    background: url('../../images/landingImg.png') no-repeat 80% center;
+}
+
+#page-landing .content-wrapper main{
+    max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#page-landing .content-wrapper main p{
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.content-wrapper .location {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.content-wrapper .location strong {
+    font-weight: 800;
+}
+
+.content-wrapper .enter-app {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover{
+    background: #96FEFF;
+}
