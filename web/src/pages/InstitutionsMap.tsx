@@ -1,5 +1,5 @@
 import React from 'react';
-import {MapContainer, TileLayer} from 'react-leaflet';
+import {Map, TileLayer} from 'react-leaflet';
 
 import mapMarkerImg from '../images/mapMarkerImg.svg'
 
@@ -22,7 +22,7 @@ const InstitutionsMap = () => {
 
             </aside>
 
-            <MapContainer
+            <Map
             // Array with longitude and latitude
                 center = {[-19.9223924,-43.9419179]}
                 zoom = {15}
@@ -33,7 +33,7 @@ const InstitutionsMap = () => {
                 />
                 
 
-            </MapContainer>
+            </Map>
         </div>
     )
 }
