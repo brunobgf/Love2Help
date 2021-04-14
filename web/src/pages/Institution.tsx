@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 import api from "../services/api";
 import Sidebar from "../components/Sidebar";
 
+import '../styles/pages/institutions.css';
 import mapIcon from "../utils/mapIcon";
 
 
@@ -28,6 +29,7 @@ interface InstitutionParams {
     id: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 export default function Institution(){
     const params = useParams<InstitutionParams>();
     //api call
