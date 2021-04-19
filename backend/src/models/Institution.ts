@@ -1,6 +1,6 @@
 import {Entity, Column, PrimaryGeneratedColumn, OneToMany, JoinColumn} from 'typeorm';
 //this OneToMany refers to one orphanage to many images
-import Image from './Image'
+import Image from './Image';
 
 @Entity('institutions')
 export default class Institution {
@@ -34,9 +34,7 @@ export default class Institution {
     })
     @JoinColumn ({ name: 'institution_id' })
     images: Image[];
-
-    //we don't use column here because this decorator isn't used as a database column
 }
 
-
+ //we don't use column here because this decorator isn't used as a database column
 
