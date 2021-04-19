@@ -14,8 +14,8 @@
 
 ## 💻 About
 
-<p align="center">Love2Help is a plataform that allows people to search for NGO nearby and brings a possibility to support  these organizations .</p>
-<p align="center">This project was developed using Node.js, ReactJS and Typescript. </p>
+<p>Love2Help is a plataform that allows people to search for NGO nearby and brings a possibility to support  these organizations .</p>
+<p>This project was developed using Node.js, ReactJS and Typescript. </p>
 
 ## :rocket: Technologies
 
@@ -52,3 +52,14 @@ cd web
 yarn start
 
 ```
+## 📝 License
+
+This project have been licensed under the MIT
+
+## 📮  Contact
+
+https://www.linkedin.com/in/bruno-gomes-ferreira-47630313b/
+
+<hr>
+
+Developed by <strong>Bruno Gomes </strong>
