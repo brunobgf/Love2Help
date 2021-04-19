@@ -94,7 +94,7 @@ export default function Institution(){
                                 url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} 
                                 />
 
-                                <Marker interactive={false} icon={mapIcon} position={[-27.2092052,-49.6401092]}/>
+                                <Marker interactive={false} icon={mapIcon} position={[-19.9223924,-43.9419179]}/>
                                 {/* This link was found here: https://developers.google.com/maps/documentation/urls/get-started */}
                             </Map>
                             <footer>

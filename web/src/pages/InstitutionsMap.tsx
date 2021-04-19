@@ -25,7 +25,7 @@ const InstitutionsMap = () => {
     //useEffect receives two parameters, it will exercute the function {} when [] changes
     //if the [] is empty this function will execute only one time for showing some data on the screen
     useEffect(()=>{
-        api.get('institution').then(response=>{
+        api.get('institutions').then(response=>{
             setInstitutions(response.data)
              //the variabl orphanages will have the value returned by response.data 
         });
