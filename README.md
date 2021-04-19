@@ -12,10 +12,9 @@
 
 <br>
 
-## 💻 Project
+## 💻 About
 
 <p align="center">Love2Help is a plataform that allows people to search for NGO nearby and brings a possibility to support  these organizations .</p>
-<br>
 <p align="center">This project was developed using Node.js, ReactJS and Typescript. </p>
 
 ## :rocket: Technologies
