@@ -2,11 +2,11 @@
     <img alt="Página Inicial" src="./landingpage.png" width="450px" />
 </h1> -->
 
-<h1 align="center">Love2Help</h1>
+<h1 align="center">Love2Help - Bring happiness to people through your help!</h1>
 
 <p align="center">
-  <a href="#-projeto">💻 About </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#rocket-tecnologias"> :rocket: Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#About">💻 About </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#rocket-Technologies"> :rocket: Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">🔖 How To Execute</a>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -20,6 +20,7 @@
 ## :rocket: Technologies
 
 This project uses the following technologies:
+
 
 - [React](https://reactjs.org)
 - [Node.js](https://nodejs.org/en/)
@@ -38,20 +39,26 @@ git https://github.com/brunobgf/Love2Help.git
 ```
 #### Installation 
 In your Terminal, follow the instructions bellow to install the project dependencies. 
+
 ```sh
 
-yarn install dependencies
+# Install back-end dependencies
+$ cd backend && npm install
+
+# Execute TypeORM migrations
+$ npm run typeorm migration:run
+
+# Execute  Node.js api
+$ npm run dev:server
+
+# Install front-end dependencies
+$ cd ../web && npm install
+
+# Execute front-end 
+$ npm start
 
 ```
 
-```
-#### Initializing the application 
-```sh
-
-cd web
-yarn start
-
-```
 ## 📝 License
 
 This project have been licensed under the MIT
