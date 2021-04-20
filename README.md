@@ -8,7 +8,7 @@
   <a href="#-about">💻 About </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#rocket-Technologies"> :rocket: Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-execute">🔖 How To Execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#-contact">📮  Contact</a>&nbsp;&nbsp;&nbsp;
+   <a href="#--contact">📮  Contact</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
